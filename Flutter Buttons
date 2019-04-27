@@ -1,0 +1,20 @@
+new ButtonTheme(
+                        shape: RoundedRectangleBorder(borderRadius: new BorderRadius.circular(14) ), 
+                        height: 50,
+                        minWidth: 165,
+                        child: new RaisedButton(
+
+                          color: Colors.yellowAccent,
+                          splashColor: Colors.pinkAccent,
+                          textColor: Colors.black,
+                          child: new Text(
+                            "FIND TRAVELLER",
+                            style: TextStyle(
+                                fontWeight: FontWeight.w900, fontSize: 15),
+                          ),
+                          onPressed: ()=> {  },
+
+
+                        )
+
+                        )
