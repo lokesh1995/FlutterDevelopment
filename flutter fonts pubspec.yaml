@@ -1,0 +1,31 @@
+name: flontser
+description: A new Flutter project.
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://www.dartlang.org/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the Icons class.
+  uses-material-design: true
+
+  fonts:
+    - family: Rock Salt
+      fonts:
+        # https://fonts.google.com/specimen/Rock+Salt
+        - asset: fonts/RockSalt.ttf
+    - family: VT323
+      fonts:
+        # https://fonts.google.com/specimen/VT323
+        - asset: fonts/VT323-Regular.ttf
+    - family: Ewert
+      fonts:
+        # https://fonts.google.com/specimen/Ewert
+        - asset: fonts/Ewert-Regular.ttf
